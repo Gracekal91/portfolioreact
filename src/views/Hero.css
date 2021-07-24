@@ -1,11 +1,11 @@
 .hero{
-    background: rgba(250, 192, 31, 0.946);
+    background: #000;
     width: 100%;
     margin: 0;
     padding: 0;
     height: 80vh;
     display: table;
-  color: #0000;
+  color: #ffffff;
   line-height: 1.6;
   position: relative;
   font-family: sans-serif;
@@ -23,29 +23,40 @@
 
 .hero .content .hero__name{
     font-size: 2rem;
-    color: rgb(16, 16, 16);
+    color: rgba(240, 186, 9, 0.96);
+    text-transform: uppercase;
 }
 
 .hero .content .hero__description{
-    color: rgba(41, 37, 37, 0.837);
+    color: rgba(179, 179, 179, 0.837);
+    margin: 2rem 0;
 }
 
 .hero .hero__btn{
-    color: white;
-    background: rgb(0, 0, 0);
+    color: rgba(12, 12, 12, 0.837);
+    background: rgba(240, 186, 9, 0.96);
     padding: .8rem 3rem;
     border: unset;
     border-radius: 5px;
     transition: ease .5s;
     letter-spacing: 2px;
     text-transform: uppercase;
+    font-weight: bold;
 }
+.hero .hero__btn > i{ margin-right: 1rem;    transition: ease-in-out 1s;}
 
 .hero .hero__btn:hover{
-    background: rgb(33, 33, 33);
-    transition: ease .5s;
+    color: rgb(33, 33, 33);
+    background: white;
+    transform: scale(1.2);
+    transition: ease .3s;
+    transform: scale(1.2);
 }
 
+.hero .hero__btn:hover > i{
+    transform: rotate(360deg);
+    transition: ease-in-out 1s;
+}
 /* Background - effect */
 * {
     margin: 0;
@@ -79,8 +90,9 @@
     height: 100%;
     top: 0;
     left: 50%;
-    background: rgba(255, 255, 255, 0.1);
+    background: rgba(87, 85, 85, 0.227);
     overflow: hidden; }
+
     .line::after {
       content: '';
       display: block;
@@ -107,4 +119,61 @@
       top: -50%; }
     100% {
       top: 110%; } }
+
+/* Circle background animation */
+.circles {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    margin: auto;
+    width: 90vw; }
   
+  .circle {
+    position: absolute;
+    width: 30%;
+    height: 50%;
+    border-radius: 50%;
+    top: -10%;
+    right: -15%;
+    background: rgba(233, 171, 14, 0.070);
+    overflow: hidden; }
+
+    .circle::after {
+      content: '';
+      display: block;
+      position: absolute;
+      height: 15vh;
+      width: 100%;
+      top: -50%;
+      left: 0;
+      background: linear-gradient(to bottom, #f3a10a1c, #f3a10a00 75%, #f3a10a00 100%);
+      animation: drop 7s 0s;
+      animation-fill-mode:backwards;
+      animation-timing-function: cubic-bezier(0.4, 0.26, 0, 0.97); }
+ 
+  
+  @keyframes drop {
+    0% {
+      top: -50%; }
+    100% {
+      top: 110%; } }
+
+  /* Circle 2 */
+  .circle2{
+        position: absolute;
+        width: 30%;
+        height: 50%;
+        border-radius: 50%;
+        top: 70%;
+        left: -15%;
+        background: rgba(233, 171, 14, 0.070);
+        overflow: hidden;
+    transition: ease-out 2s;
+    }
+.circle2:hover{
+transform: scale(1.8);
+transition: ease-in 1s;
+}
+    
