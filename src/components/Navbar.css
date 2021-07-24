@@ -18,7 +18,22 @@
 .navbar .contact{
     margin-left: auto;
     margin-right: 4rem;
+    font-size: .9rem;
+    color: rgba(255, 255, 255, 0.72);
 }
 .navbar .contact i{
     margin-right: .4rem;
+    font-size: .9rem;
+}
+
+.navbar .contact .icon-link{
+    font-size: 1.5rem;
+    margin-right: 1.5rem;
+    color: rgb(17, 3, 3);
+    transition: ease-in .2s;
+}
+
+.navbar .contact .icon-link:hover{
+transform: scale(1.2);
+transition: ease-in .2s;
 }

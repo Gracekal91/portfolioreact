@@ -43,13 +43,20 @@
     text-transform: uppercase;
     font-weight: bold;
 }
+.hero .hero__btn > i{ margin-right: 1rem;    transition: ease-in-out 1s;}
 
 .hero .hero__btn:hover{
     color: rgb(33, 33, 33);
     background: white;
+    transform: scale(1.2);
     transition: ease .3s;
+    transform: scale(1.2);
 }
 
+.hero .hero__btn:hover > i{
+    transform: rotate(360deg);
+    transition: ease-in-out 1s;
+}
 /* Background - effect */
 * {
     margin: 0;
@@ -153,4 +160,20 @@
     100% {
       top: 110%; } }
 
-  
+  /* Circle 2 */
+  .circle2{
+        position: absolute;
+        width: 30%;
+        height: 50%;
+        border-radius: 50%;
+        top: 70%;
+        left: -15%;
+        background: rgba(233, 171, 14, 0.070);
+        overflow: hidden;
+    transition: ease-out 2s;
+    }
+.circle2:hover{
+transform: scale(1.8);
+transition: ease-in 1s;
+}
+    

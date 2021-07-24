@@ -1,6 +1,7 @@
 import Navbar from './components/Navbar'
 import Hero from './views/Hero';
 import Skills from './views/Skills';
+import About from './views/About';
 import './App.css';
 
 function App() {
@@ -8,7 +9,8 @@ function App() {
     <div className="App">
       <Navbar />
       <Hero />
-      < Skills />
+      <About />
+      <Skills />
     </div>
   );
 }

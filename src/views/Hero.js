@@ -10,7 +10,8 @@ const Hero = () => {
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
                     molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
                 </p>
-                <button className="hero__btn">Projects</button>
+                <button className="hero__btn">
+                    <i class="fa fa-cog" aria-hidden="true"></i>Projects</button>
             </div>
             <div class="lines">
                 <div class="line"></div>
