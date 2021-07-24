@@ -17,6 +17,10 @@ const Hero = () => {
                 <div class="line"></div>
                 <div class="line"></div>
             </div>
+            <div class="circles">
+                <div class="circle"></div>
+                <div class="circle2"></div>
+            </div>
         </div>
     )
 }
