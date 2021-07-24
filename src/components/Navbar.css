@@ -1,6 +1,7 @@
 .navbar{
     width: 100%;
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     align-items: center;
     justify-content: space-between;
     background: rgb(180, 118, 3);
@@ -8,7 +9,16 @@
     height: 70px;
 }
 
-.navbar > div{
-   
-    
+.navbar .logo{
+    margin-left: 4rem;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.navbar .contact{
+    margin-left: auto;
+    margin-right: 4rem;
+}
+.navbar .contact i{
+    margin-right: .4rem;
 }
