@@ -1,0 +1,11 @@
+.skillscard{
+    width: 100%;
+    background: chocolate;
+    padding: 10px;
+    color: white;
+    margin-top: 1.2rem;
+}
+
+.skillscard__title{
+
+}

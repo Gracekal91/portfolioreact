@@ -1,0 +1,21 @@
+.myskills__me{
+    color: #fff;
+    background: black;
+    width: 100%;
+    height: 500px;
+    margin: 0;
+    padding: 2rem;
+}
+
+.myskills__title{
+    margin-top: 1.7rem;
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
+    
+}
