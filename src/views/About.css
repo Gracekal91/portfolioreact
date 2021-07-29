@@ -1,15 +1,9 @@
 .about{
-    margin: 4rem 0;
-    text-align: center;
-}
-
-.container{
-    width: 80%;
-    height: 450px;
-    margin: 0 auto;
+    width: 100%;
+    height: 550px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    border-top: 2px white solid;
 }
-.container .content{
-text-align: justify;
-}
+
+
