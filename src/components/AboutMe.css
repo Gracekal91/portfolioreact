@@ -3,13 +3,16 @@
     width: 100%;
     margin: 0;
     padding: 2rem;
-    color: #000;
+    color: rgb(53, 53, 53);
+    font-weight: 450;
+    font-size: 1.1rem;
 }
 
 .aboutme__title{
 margin-bottom: 1rem;
 font-weight: bold;
 font-size: 2.5rem;
+color: white;
 }
 
 .about__me .aboutme__btn{
@@ -17,7 +20,13 @@ font-size: 2.5rem;
     background: #000;
     color: #E18905;
     border: unset;
-    padding: .8rem 1rem;
+    padding: 1rem 1rem;
     border-radius: 5px;
     margin-top: 2rem;
+    transition: .2s linear;
+}
+
+.about__me .aboutme__btn:hover{
+    transform: scale(1.03);
+    transition: .2s linear;
 }

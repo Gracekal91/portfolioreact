@@ -1,11 +1,30 @@
 .skillscard{
     width: 100%;
-    background: chocolate;
-    padding: 10px;
+    background: #E18905;
+    padding: 25px 5px;
     color: white;
     margin-top: 1.2rem;
+    border-radius: 6px;
+    transition: .5s ease-in;
+}
+.skillscard:hover{
+    transform: scale(1.03);
+    transition: .5s ease-out;
 }
 
-.skillscard__title{
+
+ul li{
+    list-style: none;
+    text-align: center;
+}
+
+ul li i{
+    margin-right: 15px;
+    font-size: 2.5rem;
+    border: 1px rgba(0, 0, 0, 0.186) solid;
+    width: 100px;
+    padding: 25px 5px;
+    margin-bottom: 5px;
+    border-radius: 8px;
 
 }
