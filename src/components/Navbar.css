@@ -4,7 +4,7 @@
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
     justify-content: space-between;
-    background: rgb(180, 118, 3);
+    background: #E18905;
     color: white;
     height: 70px;
 }

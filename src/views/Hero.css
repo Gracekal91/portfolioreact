@@ -22,8 +22,8 @@
 }
 
 .hero .content .hero__name{
-    font-size: 2rem;
-    color: rgba(240, 186, 9, 0.96);
+    font-size: 2.5rem;
+    color: #E18905;
     text-transform: uppercase;
 }
 
@@ -34,7 +34,7 @@
 
 .hero .hero__btn{
     color: rgba(12, 12, 12, 0.837);
-    background: rgba(240, 186, 9, 0.96);
+    background: #E18905;
     padding: .8rem 3rem;
     border: unset;
     border-radius: 5px;

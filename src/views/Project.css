@@ -1,0 +1,19 @@
+.project{
+    width: 100%;
+    height: 550px;
+}
+
+.project__title{
+    margin-top: 1.7rem;
+    font-weight: bold;
+    font-size: 2.5rem;
+    text-align: center;
+    color: #E18905;
+}
+
+.projects__container{
+    padding: 4rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}

@@ -1,10 +1,9 @@
 import './Card.css'
-import SkillsCard from '../components/SkillsCard'
 
-const Card = () => {
+const Card = (props) => {
     return (
         <div className="card">
-
+            {props.children}
         </div>
     )
 }
