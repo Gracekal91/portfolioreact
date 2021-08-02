@@ -1,11 +1,37 @@
 .singleproject{
     width: 100%;
     padding: 3rem;
+    padding-top: 6rem;
     color: blanchedalmond;
     border-radius: '1rem';
     background-size: cover;
     border-radius: 1rem;
     height: 270px;
+    transition: .2s ease-in-out;
 }
+
+.singleproject:hover{
+   transform: scale(1.05);
+   transition: .2s ease-in-out;
+}
+
+.singleproject h3{
+    text-transform: uppercase;
+    margin-bottom: .7rem;
+    color: #E18905;
+}
+
+.singleproject p{
+    font-size: .9rem;
+}
+
+a{
+text-decoration: none;
+}
+
+
+
+
+
 
 
