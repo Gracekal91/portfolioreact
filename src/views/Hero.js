@@ -5,7 +5,7 @@ const Hero = () => {
         <div className="hero">
 
             <div className="content">
-                <h1 className="hero__name">Welcome to my Portfolio </h1>
+                <h1 className="hero__name">Welcome to GTech </h1>
                 <p className="hero__description">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
                     molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
