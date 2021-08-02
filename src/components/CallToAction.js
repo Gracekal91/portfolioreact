@@ -12,7 +12,7 @@ const CallToAction = () => {
                 <p>Interested in working together? We should queue up a chat. Do no not hesitate</p>
             </div>
             <div>
-                <Link to="">
+                <Link exact to="/contact">
                     <button type="button" className="btn">Let's Connect</button>
                 </Link>
             </div>
