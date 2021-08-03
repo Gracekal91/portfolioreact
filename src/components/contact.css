@@ -1,4 +1,49 @@
 .contactComponent{
     width: 90%;
+    margin: 4rem auto;
+    text-align: center;
 
+}
+
+h3{
+    color: chocolate;
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 35px;
+}
+
+.contact-form{
+    width: 500px;
+    padding: 1rem;
+    margin: 4.5rem auto;
+}
+
+.contact-form div{
+    width: 100%;
+}
+
+.form-control{
+    width: 100%;
+    padding: .5rem .3rem;
+    margin: .5rem 0;
+}
+
+.half-form{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
+}
+
+.half-form .form-control-half{
+    padding: .5rem .3rem;
+}
+
+.contact-btn{
+    width: 100%;
+    padding: .8rem 4rem;
+    border: unset;
+    background: chocolate;
+    border-radius: 8px;
+    color: white;
+    text-transform: uppercase;
 }
