@@ -8,7 +8,7 @@ const SingleProject = (props) => {
 
     return (
 
-        <Link to="">
+        <Link to="/works/:id">
             <div className="singleproject"
                 style={{
                     background: `url('${props.project.image}')`
