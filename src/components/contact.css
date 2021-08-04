@@ -1,49 +1,69 @@
-.contactComponent{
+.contactComponent {
     width: 90%;
     margin: 4rem auto;
     text-align: center;
 
 }
 
-h3{
+h3 {
     color: chocolate;
     font-size: 2rem;
     font-weight: 500;
     line-height: 35px;
 }
 
-.contact-form{
+.contact-form {
     width: 500px;
     padding: 1rem;
     margin: 4.5rem auto;
 }
 
-.contact-form div{
+.contact-form div {
     width: 100%;
 }
 
-.form-control{
+.form-control {
     width: 100%;
-    padding: .5rem .3rem;
-    margin: .5rem 0;
+    padding: 0.5rem 0.3rem;
+    margin: 0.5rem 0;
 }
 
-.half-form{
+.half-form {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 5px;
 }
 
-.half-form .form-control-half{
-    padding: .5rem .3rem;
+.half-form .form-control-half {
+    padding: 0.5rem 0.3rem;
 }
 
-.contact-btn{
+.contact-btn {
     width: 100%;
-    padding: .8rem 4rem;
+    padding: 0.8rem 4rem;
     border: unset;
     background: chocolate;
     border-radius: 8px;
     color: white;
     text-transform: uppercase;
+}
+
+.contact__input {
+    border: unset;
+    border: 2px solid rgba(210, 105, 30, 0.611);
+    outline: unset;
+    transition: 0.2s ease;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 5px;
+}
+.contact__input:focus {
+    border-bottom: 3px solid chocolate;
+    transition: 0.2s ease;
+}
+
+textarea {
+    border: 2px solid rgba(210, 105, 30, 0.611);
+    border-radius: 5px;
+    outline: unset;
+    font-family: 'Montserrat', sans-serif;
 }

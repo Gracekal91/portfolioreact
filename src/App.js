@@ -8,6 +8,7 @@ import './App.css';
 
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 import Contact from './components/Contact';
+import NewsLetter from './components/NewSletter';
 
 
 function App() {
@@ -18,7 +19,7 @@ function App() {
         <Switch>
           <Route exact path="/contact">
             <Contact />
-            <CallToAction />
+            <NewsLetter />
             <Footer />
           </Route>
           <Route exact path="/">
