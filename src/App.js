@@ -9,14 +9,22 @@ import './App.css';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 import Contact from './components/Contact';
 import NewsLetter from './components/NewSletter';
+import Portfolio from './views/Portfolio';
 
 
 function App() {
+
+
   return (
     <div className="App">
       <Router>
         <Navbar />
         <Switch>
+          <Route exact path="/Portfolio">
+            <Portfolio />
+            <CallToAction />
+            <Footer />
+          </Route>
           <Route exact path="/contact">
             <Contact />
             <NewsLetter />
