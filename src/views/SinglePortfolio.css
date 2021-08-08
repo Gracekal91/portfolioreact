@@ -1,0 +1,29 @@
+.projects__container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.single__portfolio{
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    border-radius: 5px;
+}
+
+.portfolio__btn{
+    padding: .7rem 2.5rem;
+    color: white;
+    background: chocolate;
+    border: unset;
+    border-radius: 5px;
+    margin: 1rem 0;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: 250ms;
+}
+.portfolio__btn:hover{
+    transform: translateY(-10px);
+    transition: 250ms;
+}
+
+.single__portfolio__content{
+    padding: 1rem;
+}
