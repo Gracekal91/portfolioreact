@@ -24,6 +24,7 @@ color: white;
     border-radius: 5px;
     margin-top: 2rem;
     transition: .2s linear;
+    cursor: pointer;
 }
 
 .about__me .aboutme__btn:hover{
