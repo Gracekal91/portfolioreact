@@ -18,6 +18,7 @@ const Project = (props) => {
             description: 'This is my second project description'
         },
         {
+
             name: 'Project double',
             image: 'https://miro.medium.com/max/11344/1*32h8ts3A-7XNr6A4Js87ng.jpeg',
             description: 'This is my second project description'

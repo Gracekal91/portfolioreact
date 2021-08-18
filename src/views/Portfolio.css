@@ -5,12 +5,10 @@
 }
 
 .portfolio__title{
-    font-size: 7rem;
-    margin-top: 6rem;
+    font-size: 5rem;
 }
 
 .portfolio__subheading{
     font-size: 1.5rem;
     color: gray;
-    margin-bottom: 7rem;
 }

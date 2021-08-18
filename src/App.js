@@ -12,6 +12,7 @@ import NewsLetter from './components/NewSletter';
 import Portfolio from './views/Portfolio';
 
 
+
 function App() {
 
 
@@ -37,6 +38,7 @@ function App() {
             <CallToAction />
             <Footer />
           </Route>
+
         </Switch>
       </Router>
     </div>
