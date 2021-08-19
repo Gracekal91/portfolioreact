@@ -15,13 +15,12 @@ const Navbar = () => {
                     <i className="fas fa-home icon-link" ></i>
                 </Link>
 
-
-
-                <Link to="/project">
+                <Link to="/portfolio">
                     <i className="fas fa-tasks icon-link" ></i>
                 </Link>
-
-                <i className="fas fa-phone"></i>
+                <Link to="/contact">
+                    <i className="fas fa-phone icon-link"></i>
+                </Link>
                 <span>+27 84 048 28 61</span>
             </div>
         </div >

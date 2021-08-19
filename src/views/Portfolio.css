@@ -4,13 +4,20 @@
     padding: 3rem 1rem;
 }
 
+.portfolio__container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    padding: 3rem 0;
+}
+
+
 .portfolio__title{
-    font-size: 7rem;
-    margin-top: 6rem;
+    font-size: 5rem;
 }
 
 .portfolio__subheading{
     font-size: 1.5rem;
     color: gray;
-    margin-bottom: 7rem;
 }
+

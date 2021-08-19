@@ -11,12 +11,11 @@ import Contact from './components/Contact';
 import NewsLetter from './components/NewSletter';
 import Portfolio from './views/Portfolio';
 
-
 function App() {
 
-
   return (
-    <div className="App">
+    <div className="app">
+
       <Router>
         <Navbar />
         <Switch>
@@ -40,7 +39,6 @@ function App() {
         </Switch>
       </Router>
     </div>
-
   );
 }
 

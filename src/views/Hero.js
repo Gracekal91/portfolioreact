@@ -11,7 +11,7 @@ const Hero = () => {
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
                     molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
                 </p>
-                <Link to="/projects">
+                <Link to="/portfolio">
                     <button className="hero__btn">
                         <i class="fa fa-cog" aria-hidden="true"></i>Projects</button>
                 </Link>
