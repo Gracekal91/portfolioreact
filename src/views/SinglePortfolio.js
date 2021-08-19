@@ -8,7 +8,7 @@ const SinglePortfolio = (props) => {
     return (
         <div className="single__portfolio">
             <img src={image} width="100%" height="250px"
-                style={{ borderRadius: '10px 10px 0 0' }} />
+                style={{ borderRadius: '10px 10px 0 0' }} alt="project representation" />
             <div className="single__portfolio__content">
                 <p>{title}</p>
                 <p>{description}</p>

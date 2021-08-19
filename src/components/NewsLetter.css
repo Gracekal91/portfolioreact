@@ -38,6 +38,11 @@
     border-radius: 8px;
     color: white;
     text-transform: uppercase;
+    cursor: pointer;
+}
+
+.newsletter__btn:hover{
+    background: rgb(168, 78, 13);
 }
 
 

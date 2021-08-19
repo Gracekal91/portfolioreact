@@ -1,7 +1,6 @@
 import './Myskills.css'
 import SkillsCard from './SkillsCard'
 import SkillsCard2 from './SkillsCard2'
-import Bounce from 'react-reveal/Bounce';
 import Fade from 'react-reveal/Fade';
 
 const Myskill = () => {

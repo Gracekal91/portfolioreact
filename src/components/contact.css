@@ -46,6 +46,11 @@ h3 {
     border-radius: 8px;
     color: white;
     text-transform: uppercase;
+    cursor: pointer;
+}
+
+.contact-btn:hover{
+    opacity: .8;
 }
 
 .contact__input {

@@ -8,8 +8,7 @@ const Hero = () => {
             <div className="content">
                 <h1 className="hero__name">Welcome to GTech </h1>
                 <p className="hero__description">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
-                    molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
+                    Welcome To My portfolio, Do not hesitate to drop a Message for your Projects, Have a look at my recents works.
                 </p>
                 <Link to="/portfolio">
                     <button className="hero__btn">
