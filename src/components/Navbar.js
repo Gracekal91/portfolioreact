@@ -15,8 +15,6 @@ const Navbar = () => {
                     <i className="fas fa-home icon-link" ></i>
                 </Link>
 
-
-
                 <Link to="/portfolio">
                     <i className="fas fa-tasks icon-link" ></i>
                 </Link>

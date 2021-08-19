@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import './calltoaction.css'
+import Fade from 'react-reveal/Fade';
 
 const CallToAction = () => {
     return (
@@ -9,11 +10,13 @@ const CallToAction = () => {
                 <h2>Let's start a project</h2>
             </div>
             <div>
-                <p>Interested in working together? We should queue up a chat. Do no not hesitate</p>
+                <p>Interested in working together? We should queue up a chat.</p>
             </div>
             <div>
                 <Link exact to="/contact">
-                    <button type="button" className="btn">Let's Connect</button>
+                    <Fade bottom>
+                        <button type="button" className="btn">Let's Connect</button>
+                    </Fade>
                 </Link>
             </div>
         </div>

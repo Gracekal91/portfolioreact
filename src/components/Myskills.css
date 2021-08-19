@@ -19,3 +19,14 @@
     gap: 15px;
 
 }
+
+/* Media query */
+
+@media screen and (max-width:600px) {
+    .cards{
+        grid-template-columns: 1fr;
+    }
+    .myskills__me{
+        height: auto;
+    }
+}

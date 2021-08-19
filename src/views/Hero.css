@@ -25,6 +25,7 @@
     font-size: 2.5rem;
     color: #E18905;
     text-transform: uppercase;
+    transition: ease-in .2s;
 }
 
 .hero .content .hero__description{
@@ -58,6 +59,39 @@
     transform: rotate(360deg);
     transition: ease-in-out 1s;
 }
+
+
+/* MEDIA SCREEN */
+@media screen and (max-width:995px) {
+  .hero .content{
+    width: 70%;
+    padding: 7rem 5rem 3rem 5rem;
+  
+  }
+}
+
+@media screen and (max-width:845px) {
+  .hero .content{
+    width: 90%;
+    padding: 7rem 5rem 3rem 5rem;
+  }
+  .hero .content .hero__name{
+    font-size: 1.5rem;
+    transition: ease-in .2s;
+
+}
+
+.hero .hero__btn{
+  padding: .6rem 2rem;
+  letter-spacing: 1.5px;
+}
+}
+
+
+
+
+
+
 /* Background - effect */
 * {
     margin: 0;
@@ -177,4 +211,10 @@
 transform: scale(1.8);
 transition: ease-in 1s;
 }
-    
+
+
+/*
+
+
+
+*/

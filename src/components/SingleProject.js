@@ -11,11 +11,12 @@ const SingleProject = (props) => {
 
         <div className="singleproject"
             style={{
-                background: `url('${props.project.image}')`
+                background: `url('${props.project.image}')`,
+                backgroundSize: 'cover'
             }}>
 
-            <h3>{props.project.name}</h3>
-            <p> {props.project.description}</p>
+            {/* <h3>{props.project.name}</h3>
+            <p> {props.project.description}</p> */}
         </div>
 
 
