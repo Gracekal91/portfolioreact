@@ -67,7 +67,8 @@ export class Contact extends Component {
                             className="form-control txt "
                             onChange={this.getMsg} />
                     </div>
-                    <button type="submit" className="contact-btn">Send</button>
+                    <button type="submit" className="contact-btn"
+                    >Send</button>
                 </form>
             </div>
         )
