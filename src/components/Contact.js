@@ -71,7 +71,7 @@ export class Contact extends Component {
                     >Send</button>
                 </form> */}
 
-                <form name="contact v1" method="post" data-netlify="true" onSubmit="submit">
+                <form name="contact v1" method="post" onSubmit="submit" netlify>
 
                     <input type="hidden" name="form-name" value="contact v1" />
                     <div className="half-form">
