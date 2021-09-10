@@ -76,20 +76,23 @@ export class Contact extends Component {
                     <input type="hidden" name="form-name" value="contact" />
 
                     <div className="half-form">
-                        <input type="text" placeholder="name" className="form-control-half contact__input"
+                        <input type="text" placeholder="name" name="name" className="form-control-half contact__input"
 
                         />
                         <input type="tel" placeholder="phone"
                             className="form-control-half contact__input"
+                            name="phone"
                         />
                     </div>
                     <div>
                         <input type="email" placeholder="email" className="form-control contact__input"
+                            name="email"
                         />
                     </div>
                     <div>
                         <textarea rows="10" placeholder="About your project"
                             className="form-control txt "
+                            name="message"
                         />
                     </div>
                     <button type="submit" className="contact-btn"
