@@ -49,7 +49,7 @@ export class Contact extends Component {
         return (
             <div className="contactComponent">
                 <h3>Tell me more aboout your project, or we can<br />just schedule a meeting</h3>
-                <form className="contact-form" onSubmit={this.onSubmitForm}>
+                {/* <form className="contact-form" onSubmit={this.onSubmitForm}>
                     <div className="half-form">
                         <input type="text" placeholder="name" className="form-control-half contact__input"
                             value={this.state.name}
@@ -66,6 +66,30 @@ export class Contact extends Component {
                         <textarea rows="10" placeholder="About your project"
                             className="form-control txt "
                             onChange={this.getMsg} />
+                    </div>
+                    <button type="submit" className="contact-btn"
+                    >Send</button>
+                </form> */}
+
+                <form name="contact v1" method="post" data-netlify="true" onSubmit="submit">
+
+                    <input type="hidden" name="form-name" value="contact v1" />
+                    <div className="half-form">
+                        <input type="text" placeholder="name" className="form-control-half contact__input"
+
+                        />
+                        <input type="tel" placeholder="phone"
+                            className="form-control-half contact__input"
+                        />
+                    </div>
+                    <div>
+                        <input type="email" placeholder="email" className="form-control contact__input"
+                        />
+                    </div>
+                    <div>
+                        <textarea rows="10" placeholder="About your project"
+                            className="form-control txt "
+                        />
                     </div>
                     <button type="submit" className="contact-btn"
                     >Send</button>
