@@ -1,9 +1,9 @@
 import './Project.css'
-import SingleProject from '../components/SingleProject';
-import Card from '../reusable/Card'
+import SingleProject from '../../components/project_section/SingleProject';
+import Card from '../../reusable/Card'
 import Bounce from 'react-reveal/Bounce';
-import eyespeed from '../images/eyespeedtech.png'
-import samipay from '../images/samipay.png'
+import eyespeed from '../../images/eyespeedtech.png'
+import samipay from '../../images/samipay.png'
 
 
 

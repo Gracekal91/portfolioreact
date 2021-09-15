@@ -2,8 +2,8 @@ import React from 'react'
 import './Portfolio.css'
 import SinglePortfolio from './SinglePortfolio'
 import Fade from 'react-reveal/Fade'
-import eyespeed from '../images/eyespeedtech.png'
-import samipay from '../images/samipay.png'
+import eyespeed from '../../images/eyespeedtech.png'
+import samipay from '../../images/samipay.png'
 
 
 const Portfolio = (props) => {

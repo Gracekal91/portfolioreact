@@ -1,15 +1,15 @@
 import './App.css';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 
-import Navbar from './components/Navbar'
-import Hero from './views/Hero';
-import About from './views/About';
-import Project from './views/Project';
+import Navbar from './components/navbar/Navbar';
+import Hero from './views/hero/Hero';
+import About from './views/about_section/About';
+import Project from './views/project_section/Project';
 import Footer from './components/Footer';
 import CallToAction from './components/CallToAction';
-import Contact from './components/Contact';
+import Contact from './components/contact/Contact';
 import NewsLetter from './components/NewSletter';
-import Portfolio from './views/Portfolio';
+import Portfolio from './views/portfolio/Portfolio';
 
 
 function App() {

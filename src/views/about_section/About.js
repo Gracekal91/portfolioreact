@@ -1,6 +1,6 @@
 import './About.css'
-import AboutMe from '../components/AboutMe'
-import Myskill from '../components/Myskill'
+import AboutMe from '../../components/about_section/AboutMe'
+import Myskill from '../../components/about_section/Myskill'
 
 
 const About = () => {
