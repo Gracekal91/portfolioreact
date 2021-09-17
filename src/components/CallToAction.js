@@ -10,7 +10,7 @@ const CallToAction = () => {
                 <h2>Let's start a project</h2>
             </div>
             <div>
-                <p>Interested in working together? We should queue up a chat.</p>
+                <p>Interested in working together? We should queue up a chat, Check previous works from the section above.</p>
             </div>
             <div>
                 <Link exact to="/contact">

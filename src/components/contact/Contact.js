@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
 import './contact.css'
+import Fade from 'react-reveal'
+import contact from '../../images/contact.png'
 
 export class Contact extends Component {
     constructor(props) {
@@ -10,9 +12,7 @@ export class Contact extends Component {
             email: '',
             message: ''
         }
-
         this.onSubmitForm = this.onSubmitForm.bind(this)
-
     }
 
     onSubmitForm = (event) => {
@@ -44,10 +44,22 @@ export class Contact extends Component {
         })
     }
 
-
     render() {
         return (
             <div className="contactComponent">
+                <div className="contact__hero">
+                    <div className="contact__hero__left">
+                        <Fade left>
+                            <h1 className="contact__title">Contact</h1>
+                        </Fade>
+                        <h4 className="contact__subheading">Let's discuss about your next project</h4>
+                    </div>
+                    <div className="contact__hero__right">
+                        <Fade right>
+                            <img src={contact} style={{ height: '300px' }} alt="portfolio pic" />
+                        </Fade>
+                    </div>
+                </div>
                 <h3>Tell me more aboout your project, or we can<br />just schedule a meeting</h3>
                 {/* <form className="contact-form" onSubmit={this.onSubmitForm}>
                     <div className="half-form">
@@ -71,7 +83,7 @@ export class Contact extends Component {
                     >Send</button>
                 </form> */}
 
-                <form name="contact" method="post">
+                <form name="contact" method="post" className="contact-form">
 
                     <input type="hidden" name="form-name" value="contact" />
 

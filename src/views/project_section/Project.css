@@ -1,6 +1,7 @@
 .project{
     width: 100%;
     height: 550px;
+    text-align: center;
 }
 
 .project__title{
@@ -15,9 +16,29 @@
     padding: 4rem;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 10px;
+    gap: 20px;
 }
 
+.project .project__btn{
+    color: rgba(12, 12, 12, 0.837);
+    background: #E18905;
+    padding: .8rem 3rem;
+    border: unset;
+    border-radius: 5px;
+    transition: ease .5s;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    color: white;
+    transition: .2s ease;
+}
+
+.project__btn:hover{
+    transform: scale(.9);
+    transition: .1s ease;
+
+}
 /* Media Queries */
 
 @media screen and (max-width:1000px){

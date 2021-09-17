@@ -4,13 +4,32 @@
     padding: 3rem 1rem;
 }
 
+.portfolio__hero{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5rem;
+    height: 450px;
+}
+
+.portfolio__hero__left{
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center;
+    text-align: right;
+}
+
+.portfolio__hero__right{
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center;
+}
+
 .portfolio__container{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 15px;
     padding: 3rem 0;
 }
-
 
 .portfolio__title{
     font-size: 5rem;
@@ -20,4 +39,3 @@
     font-size: 1.5rem;
     color: gray;
 }
-

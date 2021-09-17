@@ -1,5 +1,6 @@
 import './Project.css'
 import SingleProject from '../../components/project_section/SingleProject';
+import { Link } from 'react-router-dom';
 import Card from '../../reusable/Card'
 import Bounce from 'react-reveal/Bounce';
 import eyespeed from '../../images/eyespeedtech.png'
@@ -43,6 +44,10 @@ const Project = (props) => {
                     })
                 }
             </div>
+            <Link to="/portfolio">
+                <button className="project__btn">
+                    More Projects</button>
+            </Link>
         </div>
     )
 

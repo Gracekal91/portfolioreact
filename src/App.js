@@ -1,5 +1,5 @@
 import './App.css';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 import Navbar from './components/navbar/Navbar';
 import Hero from './views/hero/Hero';
@@ -11,12 +11,10 @@ import Contact from './components/contact/Contact';
 import NewsLetter from './components/NewSletter';
 import Portfolio from './views/portfolio/Portfolio';
 
-
 function App() {
 
   return (
-    <div className="app">
-
+    <div className="App">
       <Router>
         <Navbar />
         <Switch>
@@ -25,12 +23,12 @@ function App() {
             <CallToAction />
             <Footer />
           </Route>
-          <Route exact path="/contact">
+          <Route path="/contact">
             <Contact />
             <NewsLetter />
             <Footer />
           </Route>
-          <Route exact path="/">
+          <Route path="/">
             <Hero />
             <About />
             <Project />
