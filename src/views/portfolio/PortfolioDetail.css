@@ -1,0 +1,55 @@
+.singleHeader{
+    background: black;
+    height:300px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+   justify-content: center;
+}
+
+.headerTitle{
+    font-size: 4rem;
+    text-transform: capitalize;
+    margin-top: -6rem;
+    color: orange;
+}
+.singleImage{
+    text-align: center;
+    max-height: 600px;
+}
+
+.singleImage img{
+    text-align: center;
+    max-height: 600px;
+    margin-top: -7rem;
+}
+
+.projectDescription{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap:15px;
+    width: 70%;
+    margin: 0 auto;
+    padding: 6rem .3rem;
+}
+
+.projectDescLeft h1,
+.projectDescRight h1{
+margin-bottom: .8rem;
+}
+
+
+//Media query
+
+@media only screen and (min-width: 600px){
+    .singleImage{
+        max-height: 100px;
+    }
+
+    .projectDescription{
+        display: grid;
+        grid-template-columns: 1fr;
+        background:red;
+     
+    }
+}

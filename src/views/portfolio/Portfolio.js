@@ -2,35 +2,9 @@ import React from 'react'
 import './Portfolio.css'
 import SinglePortfolio from './SinglePortfolio'
 import Fade from 'react-reveal/Fade'
-import eyespeed from '../../images/eyespeedtech.png'
-import samipay from '../../images/samipay.png'
 import pt from '../../images/portfolio_1.svg';
 
-const Portfolio = (props) => {
-
-    const PORTFOLIO = [
-        {
-            image: eyespeed,
-            title: 'EYE SPEED TECHNOLOGY',
-            tech: 'HTML - CSS - JAVASCRIPT - MySQL - WORDPRESS - PHP',
-            link: "https://eyespeedtech.co.za",
-            description: 'Hello this is the description'
-        },
-        {
-            image: samipay,
-            title: 'SAMIPAY',
-            tech: 'HTML - CSS - JAVASCRIPT - MySQL - WORDPRESS - PHP',
-            link: "https://samipay.co.za",
-            description: 'Hello this is the description'
-        },
-        {
-            image: 'https://miro.medium.com/max/11344/1*32h8ts3A-7XNr6A4Js87ng.jpeg',
-            title: 'Minister of Education',
-            tech: 'HTML - CSS - React - Wordpress - Mysql',
-            link: 'https://eyespeedtech.co.za',
-            description: 'Hello this is the description'
-        }
-    ]
+const Portfolio = ({ projects }) => {
 
     return (
         <div className="portfolio">
@@ -48,8 +22,8 @@ const Portfolio = (props) => {
                 </div>
             </div>
             <div className="portfolio__container">
-                {PORTFOLIO.map((portfolio) => {
-                    return <SinglePortfolio portfolio={portfolio} />
+                {projects.map((project) => {
+                    return <SinglePortfolio portfolio={project} />
                 })}
             </div>
         </div>

@@ -2,33 +2,39 @@ import './Project.css'
 import SingleProject from '../../components/project_section/SingleProject';
 import { Link } from 'react-router-dom';
 import Card from '../../reusable/Card'
-import Bounce from 'react-reveal/Bounce';
 import eyespeed from '../../images/eyespeedtech.png'
 import samipay from '../../images/samipay.png'
+import Bounce from 'react-reveal/Bounce';
 
+const PROJECTS = [
+    {
+        id: 1,
+        image: eyespeed,
+        title: 'EYE SPEED TECHNOLOGY',
+        tech: 'HTML - CSS - JAVASCRIPT - MySQL - WORDPRESS - PHP',
+        link: "https://eyespeedtech.co.za",
+        description: 'Hello this is the description'
 
+    },
+    {
+        id: 2,
+        image: samipay,
+        title: 'SAMIPAY TECHNOLOGY',
+        tech: 'HTML - CSS - JAVASCRIPT - MySQL - WORDPRESS - PHP',
+        link: "https://eyespeedtech.co.za",
+        description: 'Hello this is the description'
+    },
+    {
+        id: 3,
+        image: eyespeed,
+        title: 'CMS',
+        tech: 'HTML - CSS - JAVASCRIPT - MySQL - WORDPRESS - PHP',
+        link: "https://eyespeedtech.co.za",
+        description: 'Hello this is the description'
+    }
+]
 
-const Project = (props) => {
-    const Projects = [
-        {
-            name: 'Project',
-            image: eyespeed,
-            description: 'This is my project description',
-
-        },
-        {
-            name: 'Project double',
-            image: samipay,
-            description: 'This is my second project description'
-        },
-        {
-
-            name: 'Project double',
-            image: 'https://miro.medium.com/max/11344/1*32h8ts3A-7XNr6A4Js87ng.jpeg',
-            description: 'This is my second project description'
-        }
-    ]
-
+const Project = () => {
     return (
 
         <div className="project">
@@ -37,8 +43,8 @@ const Project = (props) => {
             </Bounce>
             <div className="projects__container">
                 {
-                    Projects.map((project) => {
-                        return <Card>
+                    PROJECTS.map((project) => {
+                        return <Card key={project.id}>
                             <SingleProject project={project} />
                         </Card>
                     })
@@ -46,11 +52,11 @@ const Project = (props) => {
             </div>
             <Link to="/portfolio">
                 <button className="project__btn">
-                    More Projects</button>
+                    More Projects
+                </button>
             </Link>
         </div>
     )
-
 }
 export default Project
 

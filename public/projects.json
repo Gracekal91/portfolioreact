@@ -1,0 +1,22 @@
+{
+    "PROJECTS": [
+        {
+            "id": 1,
+            "name": "Project",
+            "image": "https://miro.medium.com/max/11344/1*32h8ts3A-7XNr6A4Js87ng.jpeg",
+            "description": "This is my project description"
+        },
+        {
+            "id": 2,
+            "name": "2nd Project",
+            "image": "https://miro.medium.com/max/11344/1*32h8ts3A-7XNr6A4Js87ng.jpeg",
+            "description": "This is my project description"
+        },
+        {
+            "id": 3,
+            "name": "3rd Project",
+            "image": "https://miro.medium.com/max/11344/1*32h8ts3A-7XNr6A4Js87ng.jpeg",
+            "description": "This is my project description"
+        }
+    ]
+}
