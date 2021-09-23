@@ -12,17 +12,17 @@ const Hero = () => {
                 </p>
                 <Link to="/portfolio">
                     <button className="hero__btn">
-                        <i class="fa fa-cog" aria-hidden="true"></i>Projects</button>
+                        <i className="fa fa-cog" aria-hidden="true"></i>Projects</button>
                 </Link>
             </div>
-            <div class="lines">
-                <div class="line"></div>
-                <div class="line"></div>
-                <div class="line"></div>
+            <div className="lines">
+                <div className="line"></div>
+                <div className="line"></div>
+                <div className="line"></div>
             </div>
-            <div class="circles">
-                <div class="circle"></div>
-                <div class="circle2"></div>
+            <div className="circles">
+                <div className="circle"></div>
+                <div className="circle2"></div>
             </div>
         </div>
     )

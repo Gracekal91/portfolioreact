@@ -5,16 +5,16 @@ const SkillsCard2 = () => {
         <div className="skillscard">
             <ul>
                 <li>
-                    <i class="fab fa-git"></i>
-                    <i class="fab fa-linux"></i>
+                    <i className="fab fa-git"></i>
+                    <i className="fab fa-linux"></i>
                 </li>
                 <li>
-                    <i class="fas fa-code"></i>
-                    <i class="fas fa-database"></i>
+                    <i className="fas fa-code"></i>
+                    <i className="fas fa-database"></i>
                 </li>
                 <li>
-                    <i class="fab fa-npm"></i>
-                    <i class="fab fa-wordpress"></i>
+                    <i className="fab fa-npm"></i>
+                    <i className="fab fa-wordpress"></i>
                 </li>
             </ul>
         </div>

@@ -54,7 +54,7 @@ function App() {
             <Portfolio projects={PROJECTS} />
           </Route>
           < Route exact path="/portfolio/:id" component={PortfolioDetail} />
-          <Route exact path="/contact">
+          <Route path="/contact">
             <Contact />
           </Route>
           <Route path="/">

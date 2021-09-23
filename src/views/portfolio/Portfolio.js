@@ -23,7 +23,7 @@ const Portfolio = ({ projects }) => {
             </div>
             <div className="portfolio__container">
                 {projects.map((project) => {
-                    return <SinglePortfolio portfolio={project} />
+                    return <SinglePortfolio portfolio={project} key={project.id} />
                 })}
             </div>
         </div>
