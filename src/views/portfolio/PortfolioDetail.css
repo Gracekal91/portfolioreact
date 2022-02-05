@@ -22,12 +22,13 @@
     text-align: center;
     max-height: 600px;
     margin-top: -7rem;
+    border-radius: 1rem;
 }
 
 .projectDescription{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap:15px;
+    gap:35px;
     width: 70%;
     margin: 0 auto;
     padding: 6rem .3rem;

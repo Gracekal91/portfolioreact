@@ -8,7 +8,7 @@
     border-radius: 1rem;
     height: 270px;
     transition: .2s ease-in-out;
-    border:  gray solid 1px;
+    border:#c1c1c1 solid 1px;
 }
 
 .singleproject:hover{
