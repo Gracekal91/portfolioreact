@@ -19,7 +19,6 @@ const PortfolioDetail = (props) => {
                     {about.map((p, i) => {
                         return <p key={i} style={{ textAlign: 'left', marginBottom: '.5rem' }}>{p}</p>
                     })
-
                     }
                 </div>
                 <div className="projectDescRight">

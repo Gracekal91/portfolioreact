@@ -5,6 +5,7 @@ import Card from '../../reusable/Card'
 import Bounce from 'react-reveal/Bounce';
 
 const Project = ({ PROJECTS }) => {
+    const recentProjects = PROJECTS.slice(0, 3);
     return (
 
         <div className="project">
@@ -13,7 +14,7 @@ const Project = ({ PROJECTS }) => {
             </Bounce>
             <div className="projects__container">
                 {
-                    PROJECTS.map((project) => {
+                    recentProjects.map((project) => {
                         return <Card key={project.id}>
                             <SingleProject project={project} />
                         </Card>

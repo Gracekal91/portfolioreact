@@ -5,7 +5,7 @@ const SinglePage = (props) => {
     const { image, name } = props.location.state.project
     return (
         <Fragment>
-            <header className="singleHeader">
+            {/* <header className="singleHeader">
                 <h1 className="headerTitle">{name}</h1>
             </header>
             <div className="singleImage">
@@ -25,7 +25,7 @@ const SinglePage = (props) => {
                     Non saepe omnis optio, dolores aspernatur ro expedita praesentium unde minus fuga, ad alias cupiditate quibusdam dolores, inventore, nulla dignissimos dicta amet debitis nihil quas quidem eius. Cupiditate, at beatae!
 
                 </div>
-            </div>
+            </div> */}
         </Fragment>
     )
 }
