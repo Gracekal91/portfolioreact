@@ -23,7 +23,7 @@ const PROJECTS = [
         title: 'INTERACTION TELECOMS',
         tech: 'Html | Css | Javascript | Bootstrap | Php | Laravel | Linux Environment',
         link: "https://interactiontelecoms.co.za/",
-        link2: "https://youtube.com",
+        link2: "https://youtu.be/shw_2yEyUuw",
         description: 'Hello this is the description',
         about: ['This portal allows system administrators and users to perform various functions such as planning, acquiring and delivering of mobile products and services, viewing reports and usage engagement. For more access please login with your credentials or contact Interaction Telecom administrator. Technology Empowering Efficiency in Peoples Daily Work Life',
             'As the live project requires a registered password and email to login, I will walk you through the project, click the link below to see the demo'],
