@@ -28,7 +28,7 @@ const PROJECTS = [
     id: 2,
     image: samipay,
     title: 'SAMIPAY TECHNOLOGY',
-    tech: 'HTML - CSS - JAVASCRIPT - MySQL - WORDPRESS - PHP',
+    tech: 'HTML - CSS - JAVASCRIPT - MySQL - WORDPRESS - PHP hfghff',
     link: "https://eyespeedtech.co.za",
     description: 'Hello this is the description'
   },
