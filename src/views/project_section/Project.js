@@ -10,8 +10,8 @@ const PROJECTS = [
     {
         id: 1,
         image: eyespeed,
-        title: 'EYE SPEED TECHNOLOGY MEEEE',
-        tech: 'HTML - CSS - JAVASCRIPT - MySQL - WORDPRESS - PHP',
+        title: 'EYE SPEED TECHNOLOGY ',
+        tech: 'HTML - CSS - JAVASCRIPT - MySQL - WORDPRESS - PHP hellooooo',
         link: "https://eyespeedtech.co.za",
         description: 'Hello this is the description'
 
